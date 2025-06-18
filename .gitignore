@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Compiled output
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Optional: OS-specific files
+*.swp
+*.swo
+
+# Optional: typescript build output (si usas ts)
+dist/
