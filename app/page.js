@@ -20,10 +20,10 @@ import Skills from '@/components/home-personal/Skills';
 import Portfolio from '@/components/home-personal/Portfolio';
 
 export const metadata = {
-  title: 'webfolio',
+  title: 'Nexus Studio',
   icons: {
-    icon: '/assets/imgs/favicon.ico',
-    shortcut: '/assets/imgs/favicon.ico',
+    icon: '/assets/imgs/isotipo_nexus.svg',
+    shortcut: '/assets/imgs/isotipo_nexus.svg',
     other: generateStylesheetObject([
       '/assets/css/plugins.css',
       '/assets/css/style.css',
@@ -45,15 +45,15 @@ export default function Home() {
         <div id="smooth-content">
           <main className="main-bg o-hidden">
             <Header />
-            <Marq />
+            {/* <Marq /> */}
             <About />
             <Services />
             <Portfolio />
-            <Skills />
-            <Testimonials />
+            {/* <Skills /> */}
+           {/* <Testimonials /> */}
             <Clients />
-            <Blog />
-            <Marq2 />
+            {/* <Blog /> */}
+            {/* <Marq2 /> */}
           </main>
           <Footer />
         </div>

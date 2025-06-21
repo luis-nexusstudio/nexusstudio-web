@@ -47,7 +47,6 @@ function Services() {
                 <div className="mb-10">
                   <span className="tag">Identidad visual</span>
                   <span className="tag">Diseño de marca</span>
-                  <span className="tag">Estrategia de marca</span>
                   <span className="tag">Logotipos</span>
                   <span className="tag">Papelería corporativa</span>
                 </div>

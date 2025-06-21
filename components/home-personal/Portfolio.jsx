@@ -103,7 +103,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                      Diseñamos una automatización completa que conecta el formulario de una landing page con el sistema de llamadas predictivo. Cada lead se transfiere automáticamente en tiempo real, eliminando tareas manuales y acelerando el contacto comercial.
+                      Automatización completa que conecta el formulario de una landing page con el sistema de llamadas predictivo. Cada lead se transfiere automáticamente en tiempo real, eliminando tareas manuales y acelerando el contacto comercial.
                     </p>
                   </div>
                 </div>
@@ -121,36 +121,27 @@ function Portfolio() {
                 <div className="cont">
                   <div>
                     <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
-                      </a>
+                      <span className="tag">Automatizaciones</span>
+                      <span className="tag">Web</span>
+                      <span className="tag">Integraciones</span>
                     </div>
-                    <h4>Cutter mobile app</h4>
+                    <h4>Encuestas Caja Popular</h4>
                   </div>
                   <div>
                     <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
+                      Sistema completo de encuestas telefónicas que se conecta con el marcador predictivo. Según los objetivos del cliente (por ciudad o estado), la automatización detiene las llamadas automáticamente al alcanzar el número de respuestas positivas establecido.
                     </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
                   </div>
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/1/3.jpg" alt="" />
+                  <img src="/assets/imgs/works/3/nexus_3.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
-          <div className="card-item sub-bg">
+          {/* <div className="card-item sub-bg">
             <div className="row">
               <div className="col-lg-5">
                 <div className="cont">
@@ -170,11 +161,6 @@ function Portfolio() {
                       We’re a full stack firm that can help you from strategy to
                       launch, and anywhere in between.
                     </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -219,14 +205,13 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="sec-bottom mt-100">
         <div className="main-bg d-flex align-items-center">
           <h6 className="fz-14 fw-400">
-            More than <span className="fw-600"> 200+ companies</span>
-            trusted us worldwide
+            <span className="fw-600">Clientes que han confiado en nosotros</span>
           </h6>
         </div>
       </div>
