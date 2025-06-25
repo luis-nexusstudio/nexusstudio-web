@@ -16,11 +16,11 @@ function Navbar() {
   //No dropdown menus in the simplified navigation
   return (
     <nav className="navbar navbar-expand-lg bord blur">
-      {/* <div className="container o-hidden">
-        <a className="logo icon-img-200" href="#">
-          <img src="/assets/imgs/logo-light.png" alt="logo" />
+      <div className="container o-hidden">
+        <a className="logo icon-img-100" href="#">
+          <img src="/assets/imgs/isotipo_nexus.svg" alt="logo" />
         </a>
-      </div> */}
+      </div>
     </nav>
   );
 }

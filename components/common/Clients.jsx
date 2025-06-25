@@ -41,20 +41,10 @@ return (
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/brands/adt.png" alt="" />
+                  <img src="/assets/imgs/brands/grescoce.png" alt="" />
                 </div>
               </div>
-              <h6 className="fz-18">ADT</h6>
-            </div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <div className="item mb-30">
-              <div className="box-bord">
-                <div className="img">
-                  <img src="/assets/imgs/brands/cpm.png" alt="" />
-                </div>
-              </div>
-              <h6 className="fz-18">Caja Popular</h6>
+              <h6 className="fz-18">Grescoce</h6>
             </div>
           </div>
           {/* <div className="col-lg-2 col-md-4 col-6">

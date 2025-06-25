@@ -14,9 +14,9 @@ function Footer() {
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Contacto</h6>
               <h6 className="mt-30 mb-15">
-                <a href="#0">info@nexusstudio.com.mx</a>
+                <a>info@nexusstudio.com.mx</a>
               </h6>
-              <a href="#0" className="underline">
+              <a className="underline">
                 <span className="fz-22 main-color">+52 477 (294) 82 85</span>
               </a>
             </div>
@@ -51,22 +51,22 @@ function Footer() {
               </div> */}
               <ul className="rest social-icon d-flex align-items-center">
                 <li className="hover-this cursor-pointer">
-                  <a href="#0" className="hover-anim">
+                  <a className="hover-anim">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li className="hover-this cursor-pointer ml-10">
-                  <a href="#0" className="hover-anim">
+                  <a className="hover-anim">
                     <i className="fab fa-dribbble"></i>
                   </a>
                 </li>
                 <li className="hover-this cursor-pointer ml-10">
-                  <a href="#0" className="hover-anim">
+                  <a className="hover-anim">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
                 <li className="hover-this cursor-pointer ml-10">
-                  <a href="#0" className="hover-anim">
+                  <a className="hover-anim">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
@@ -77,13 +77,13 @@ function Footer() {
         <div className="pt-30 pb-30 mt-80 bord-thin-top">
           <div className="text-center">
             <p className="fz-14">
-              © 2025 Nexus Studio{' '}
+              ©️ 2025 Nexus Studio{' '}
             </p>
           </div>
         </div>
       </div>
       <div className="circle-blur">
-        <img src="/assets/imgs/patterns/blur1.png" alt="" />
+        <img src="/assets/imgs/patterns/pattern_4.png" alt="" />
       </div>
     </footer>
   );

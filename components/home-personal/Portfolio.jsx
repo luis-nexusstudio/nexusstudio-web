@@ -99,13 +99,18 @@ function Portfolio() {
                       <span className="tag">Make</span>
                       <span className="tag">Integraciones</span>
                     </div>
-                    <h4>Flujo automatizado de prospectos para ADT</h4>
+                    <h4>Flujo automatizado de prospectos para ADT via Grescoce</h4>
                   </div>
-                  <div>
+                  <div className="mt-15">
                     <p>
                       Automatización completa que conecta el formulario de una landing page con el sistema de llamadas predictivo. Cada lead se transfiere automáticamente en tiempo real, eliminando tareas manuales y acelerando el contacto comercial.
                     </p>
                   </div>
+                  <div>
+                    <div className="mt-15">
+                      <span className="tag">Impulsado por Grescoce</span>
+                    </div>
+                  </div> 
                 </div>
               </div>
               <div className="col-lg-7">
@@ -125,13 +130,18 @@ function Portfolio() {
                       <span className="tag">Web</span>
                       <span className="tag">Integraciones</span>
                     </div>
-                    <h4>Encuestas Caja Popular</h4>
+                    <h4>Encuestas Caja Popular via Grescoce</h4>
                   </div>
-                  <div>
+                  <div className="mt-15">
                     <p>
                       Sistema completo de encuestas telefónicas que se conecta con el marcador predictivo. Según los objetivos del cliente (por ciudad o estado), la automatización detiene las llamadas automáticamente al alcanzar el número de respuestas positivas establecido.
                     </p>
                   </div>
+                  <div>
+                    <div className="mt-15">
+                      <span className="tag">Impulsado por Grescoce</span>
+                    </div>
+                  </div>     
                 </div>
               </div>
               <div className="col-lg-7">

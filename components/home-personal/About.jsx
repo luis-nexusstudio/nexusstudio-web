@@ -17,10 +17,10 @@ function About() {
                 <img src="/assets/imgs/resume/icon2.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon3.png" alt="" />
+                <img src="/assets/imgs/resume/s6.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon4.png" alt="" />
+                <img src="/assets/imgs/resume/s2.png" alt="" />
               </span>
             </div>
           </div>
@@ -30,11 +30,7 @@ function About() {
               <div className="text">
                 <h4 className="mb-30">
                   <span className="fw-200">
-                  En                  
-                  </span>{' '}
-                  Nexus Studio
-                  <span className="fw-200">
-                  desarrollamos soluciones tecnológicas que transforman la manera en que las empresas operan, se comunican y crecen
+                  En <strong>Nexus Studio</strong> desarrollamos soluciones tecnológicas que transforman la manera en que las empresas operan, se comunican y crecen
                   </span>{' '}
                 </h4>
                 <p>
@@ -55,7 +51,7 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <img src="/assets/imgs/arw0.png" alt="" />
+                            <img src="/assets/imgs/arw1.png" alt="" />
                           </div>
                         </div>
                       </div>
@@ -70,7 +66,7 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <img src="/assets/imgs/arw0.png" alt="" />
+                            <img src="/assets/imgs/arw1.png" alt="" />
                           </div>
                         </div>
                       </div>
