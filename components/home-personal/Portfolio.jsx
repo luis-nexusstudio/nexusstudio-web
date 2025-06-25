@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
+import Image from 'next/image';
 
 function Portfolio() {
   function Playing() {
@@ -84,7 +85,7 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/1/nexus_1.png" alt="" />
+                  <Image src="/assets/imgs/works/1/nexus_1.png" alt="" width={1200} height={800} priority/>
                 </div>
               </div>
             </div>
@@ -115,7 +116,7 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/2/nexus_2.png" alt="" />
+                  <Image src="/assets/imgs/works/2/nexus_2.png" alt="" width={1200} height={800} priority/>     
                 </div>
               </div>
             </div>
@@ -146,76 +147,11 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <img src="/assets/imgs/works/3/nexus_3.png" alt="" />
+                  <Image src="/assets/imgs/works/3/nexus_3.png" alt="" width={1200} height={800} priority/>
                 </div>
               </div>
             </div>
           </div>
-          {/* <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
-                      </a>
-                    </div>
-                    <h4>Cutter mobile app</h4>
-                  </div>
-                  <div>
-                    <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/4.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
-                      </a>
-                    </div>
-                    <h4>Cutter mobile app</h4>
-                  </div>
-                  <div>
-                    <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
-                    </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/5.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
       <div className="sec-bottom mt-100">

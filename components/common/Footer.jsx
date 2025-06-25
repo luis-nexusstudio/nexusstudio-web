@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <div className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/isotipo_nexus.svg" alt="" />
+              <Image src="/assets/imgs/isotipo_nexus.png" alt="Banner" width={1200} height={800} priority/>
             </div>
           </div>
           <div className="col-lg-4">
@@ -83,7 +84,7 @@ function Footer() {
         </div>
       </div>
       <div className="circle-blur">
-        <img src="/assets/imgs/patterns/pattern_4.png" alt="" />
+        <Image src="/assets/imgs/patterns/pattern_4.png" alt="Banner" width={1200} height={800} priority/>
       </div>
     </footer>
   );

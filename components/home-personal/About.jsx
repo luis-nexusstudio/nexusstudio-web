@@ -11,19 +11,18 @@ function About() {
             <div className="profile-img">
               <div className="img">
                 <Image src="/assets/imgs/header/p0.jpg" alt="Banner" width={1200} height={800} priority/>
-                {/* <img src="/assets/imgs/header/p0.jpg" alt="" /> */}
               </div>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon1.png" alt="" />
+                <Image src="/assets/imgs/resume/icon1.png" alt="Banner" width={1200} height={800} priority/>
               </span>
               <span className="icon"> 
-                <img src="/assets/imgs/resume/icon2.png" alt="" />
+                <Image src="/assets/imgs/resume/icon2.png" alt="Banner" width={1200} height={800} priority/>
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/s6.png" alt="" />
+                <Image src="/assets/imgs/resume/s6.png" alt="Banner" width={1200} height={800} priority/>
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/s2.png" alt="" />
+                <Image src="/assets/imgs/resume/s2.png" alt="Banner" width={1200} height={800} priority/>
               </span>
             </div>
           </div>
@@ -54,7 +53,7 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <img src="/assets/imgs/arw1.png" alt="" />
+                            <Image src="/assets/imgs/arw1.png" alt="Banner" width={1200} height={800} priority/>
                           </div>
                         </div>
                       </div>
@@ -69,7 +68,7 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <img src="/assets/imgs/arw1.png" alt="" />
+                            <Image src="/assets/imgs/arw1.png" alt="Banner" width={1200} height={800} priority/>
                           </div>
                         </div>
                       </div>

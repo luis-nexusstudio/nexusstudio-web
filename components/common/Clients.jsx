@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Clients() {
@@ -21,7 +22,7 @@ return (
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/brands/tym.png" alt="" />
+                  <Image src="/assets/imgs/brands/tym.png" alt="Banner" width={1200} height={800} priority/>
                 </div>
               </div>
               <h6 className="fz-18">Trigo y Miel</h6>
@@ -31,7 +32,7 @@ return (
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/brands/uriel.png" alt="" />
+                  <Image src="/assets/imgs/brands/uriel.png" alt="Banner" width={1200} height={800} priority/>
                 </div>
               </div>
               <h6 className="fz-18">Colegio Uriel</h6>
@@ -41,33 +42,12 @@ return (
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/brands/grescoce.png" alt="" />
+                  <Image src="/assets/imgs/brands/grescoce.png" alt="Banner" width={1200} height={800} priority/>
                 </div>
               </div>
               <h6 className="fz-18">Grescoce</h6>
             </div>
           </div>
-          {/* <div className="col-lg-2 col-md-4 col-6">
-            <div className="item mb-30">
-              <div className="box-bord">
-                <div className="img">
-                  <img src="/assets/imgs/resume/s4.png" alt="" />
-                </div>
-              </div>
-              <h6 className="fz-18">WordPress</h6>
-            </div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <div className="item mb-30">
-              <div className="box-bord">
-                <div className="img">
-                  <img src="/assets/imgs/resume/s6.png" alt="" />
-                </div>
-                <span className="value">85%</span>
-              </div>
-              <h6 className="fz-18">Graphic Design</h6>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

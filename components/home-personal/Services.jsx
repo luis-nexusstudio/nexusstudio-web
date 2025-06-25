@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Services() {
   return (
@@ -20,7 +21,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="item sub-bg md-mb30">
               <div className="icon-img-60 opacity-5 mb-40">
-                <img src="/assets/imgs/serv-icons/3.png" alt="" />
+                <Image src="/assets/imgs/serv-icons/3.png" alt="" width={1200} height={800} priority/>
               </div>
               <h5>Desarrollo de Software</h5>
               <div className="text mt-40">
@@ -40,7 +41,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="item sub-bg md-mb30">
               <div className="icon-img-60 opacity-5 mb-40">
-                <img src="/assets/imgs/serv-icons/4.png" alt="" />
+                <Image src="/assets/imgs/serv-icons/4.png" alt="" width={1200} height={800} priority/>
               </div>
               <h5>Estrategia de marca</h5>
               <div className="text mt-40">
@@ -59,7 +60,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="item sub-bg">
               <div className="icon-img-60 opacity-5 mb-40">
-                <img src="/assets/imgs/serv-icons/5.png" alt="" />
+                <Image src="/assets/imgs/serv-icons/5.png" alt="" width={1200} height={800} priority/>
               </div>
               <h5>Marketing</h5>
               <div className="text mt-40">

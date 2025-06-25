@@ -22,8 +22,8 @@ import Portfolio from '@/components/home-personal/Portfolio';
 export const metadata = {
   title: 'Nexus Studio',
   icons: {
-    icon: '/assets/imgs/isotipo_nexus.svg',
-    shortcut: '/assets/imgs/isotipo_nexus.svg',
+    icon: '/assets/imgs/isotipo_nexus.png',
+    shortcut: '/assets/imgs/isotipo_nexus.png',
     other: generateStylesheetObject([
       '/assets/css/plugins.css',
       '/assets/css/style.css',

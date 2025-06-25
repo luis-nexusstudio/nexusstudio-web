@@ -1,18 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Webfolio
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UiCamp
-    Author URI: http://themeforest.net/user/UiCamp
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-/* Variables
------------------------------------------------------------------*/
-/* Typography
------------------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -194,11 +181,11 @@ figure {
 }
 
 .main-color {
-  color: #ef7707 !important;
+  color: #f07704 !important;
 }
 
 .main-colorbg {
-  background: #ef7707 !important;
+  background: #f07704 !important;
 }
 
 .main-color2 {
@@ -658,7 +645,7 @@ figure {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #ef7707;
+  background: #f07704;
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
@@ -668,7 +655,7 @@ figure {
 }
 
 .btn-circle:hover {
-  border-color: #ef7707;
+  border-color: #f07704;
 }
 
 .btn-circle:hover:after {
@@ -927,7 +914,7 @@ figure {
 }
 
 .vi-more:hover .icon {
-  background: #ef7707;
+  background: #f07704;
 }
 
 /* Cursor
@@ -3744,7 +3731,7 @@ body.loaded {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #ef7707;
+  background: #f07704;
   position: absolute;
   top: 50%;
   left: 15px;
@@ -4003,7 +3990,7 @@ body.loaded {
   line-height: 40px;
   text-align: center;
   border-radius: 50%;
-  background: #ef7707;
+  background: #f07704;
   color: #0c0c0c;
   font-size: 20px;
 }
@@ -4241,7 +4228,7 @@ body.loaded {
 }
 
 .sidebar .widget.tags a:hover {
-  background: #ef7707;
+  background: #f07704;
 }
 
 .blog-main .item .content {
@@ -4357,7 +4344,7 @@ body.loaded {
 
 .main-post .info-area .tags a:hover,
 .main-post .info-area .share-icon a:hover {
-  background: #ef7707;
+  background: #f07704;
   color: #1d1d1d;
 }
 
@@ -5090,7 +5077,7 @@ footer.clean-footer.crev .circle-blur {
   height: 85px;
   line-height: 85px;
   text-align: center;
-  background: #ef7707;
+  background: #f07704;
   position: absolute;
   top: 0;
   left: 100px;
@@ -5136,7 +5123,7 @@ footer.clean-footer.crev .circle-blur {
   line-height: 60px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #ef7707;
+  border: 1px solid #f07704;
   margin-left: -20px;
 }
 
@@ -6110,7 +6097,7 @@ footer.clean-footer.crev .circle-blur {
 
 .filtering span.active {
   opacity: 1;
-  color: #ef7707;
+  color: #f07704;
 }
 
 .filtering span.text {
@@ -6410,7 +6397,7 @@ footer.clean-footer.crev .circle-blur {
 }
 
 .services-clas .item a:hover {
-  background: #ef7707;
+  background: #f07704;
 }
 
 .services-inline2 .item {
@@ -6461,7 +6448,7 @@ footer.clean-footer.crev .circle-blur {
   line-height: 100px;
   text-align: center;
   border-radius: 50%;
-  background: #ef7707;
+  background: #f07704;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -7254,8 +7241,8 @@ footer.clean-footer.crev .circle-blur {
 }
 
 .team .item .social .links a:hover {
-  background: #ef7707;
-  border-color: #ef7707;
+  background: #f07704;
+  border-color: #f07704;
   color: #111;
 }
 
@@ -7382,7 +7369,7 @@ footer.clean-footer.crev .circle-blur {
 }
 
 .team-crev2 .item .img .social a:hover {
-  background: #ef7707;
+  background: #f07704;
 }
 
 .team-crev2 .item:hover .img .social {

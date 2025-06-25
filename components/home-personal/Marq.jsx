@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 function Marq() {
   const items = [
@@ -20,7 +22,7 @@ function Marq() {
                 <h4 className="d-flex align-items-center">
                   <span>{item}</span>
                   <span className="icon-img-70 ml-50">
-                    <img src="/assets/imgs/isotipo_nexus.png" alt="" />
+                    <Image src="/assets/imgs/isotipo_nexus.png" alt="" width={1200} height={800} priority/>
                   </span>
                 </h4>
               </div>
@@ -32,7 +34,7 @@ function Marq() {
                 <h4 className="d-flex align-items-center">
                   <span>{item}</span>
                   <span className="icon-img-70 ml-50">
-                    <img src="/assets/imgs/isotipo_nexus.png" alt="" />
+                    <Image src="/assets/imgs/isotipo_nexus.png" alt="" width={1200} height={800} priority/>
                   </span>
                 </h4>
               </div>

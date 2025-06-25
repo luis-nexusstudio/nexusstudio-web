@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -83,7 +84,8 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t1.jpg" alt="" />
+                        <Image src="/assets/imgs/testim/t1.jpg" alt="" width={1200} height={800} priority/>
+                        <img  alt="" />
                       </div>
                     </div>
                     <div className="ml-20">
@@ -112,7 +114,7 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t2.jpg" alt="" />
+                        <Image src="/assets/imgs/testim/t2.jpg" alt="" width={1200} height={800} priority/>
                       </div>
                     </div>
                     <div className="ml-20">
@@ -141,7 +143,7 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t3.jpg" alt="" />
+                        <Image src="/assets/imgs/testim/t3.jpg" alt="" width={1200} height={800} priority/>
                       </div>
                     </div>
                     <div className="ml-20">
