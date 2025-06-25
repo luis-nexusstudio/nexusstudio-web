@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 function About() {
   return (
@@ -8,12 +10,13 @@ function About() {
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img">
-                <img src="/assets/imgs/header/NexusStudio.jpg" alt="" />
+                <Image src="/assets/imgs/header/p0.jpg" alt="Banner" width={1200} height={800} priority/>
+                {/* <img src="/assets/imgs/header/p0.jpg" alt="" /> */}
               </div>
               <span className="icon">
                 <img src="/assets/imgs/resume/icon1.png" alt="" />
               </span>
-              <span className="icon">
+              <span className="icon"> 
                 <img src="/assets/imgs/resume/icon2.png" alt="" />
               </span>
               <span className="icon">
