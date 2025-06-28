@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect, useLayoutEffect } from 'react';
+import Link from 'next/link';
 import { gsap } from 'gsap';
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 function Header({data}) {
@@ -29,12 +30,11 @@ function Header({data}) {
           <div className="col-12">
             <div className="caption">
               <h1>Cómo lo Logramos</h1>
-              <a
-                href="/"
+               <Link href="/" 
                 className="btn mt-30"
-                style={{ borderRadius: '30px', padding: '10px 25px', textDecoration: 'none', backgroundColor:'#f07704', color:'white' }}              >
+                style={{ borderRadius: '30px', padding: '10px 25px', textDecoration: 'none', backgroundColor:'#f07704', color:'white' }}>
                 Volver al Inicio
-              </a>
+              </Link>
             </div>
           </div>
         </div>

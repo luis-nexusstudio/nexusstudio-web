@@ -82,11 +82,11 @@ function Portfolio() {
                     <p>
                       Plataforma digital completa para la venta y gestión de boletos de eventos que integra pagos seguros con Mercado Pago y un sistema robusto de gestión de usuarios mediante Firebase.
                     </p> 
-                    <a href="/project-details/ya-despega" className="underline mt-15">
+                    <Link href="/project-details/ya-despega" className="underline mt-15">
                       <span className="text main-color sub-title">
                         Ver Detalles <i className="ti-arrow-top-right"></i>
                       </span>
-                    </a>                  
+                    </Link>                  
                   </div>
                 </div>
               </div>

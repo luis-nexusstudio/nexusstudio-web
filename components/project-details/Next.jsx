@@ -2,6 +2,8 @@
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 import data from '@/data/portfolios/data.json';
 import React, { useEffect } from 'react';
+import Link from 'next/link';
+
 
 function Next({ currentId }) {
   useEffect(() => {
@@ -26,10 +28,10 @@ function Next({ currentId }) {
                   <span className="mr-30 fz-30 ti-arrow-left"></span>
                 </div>
                 <div>
-                  <h6 className="sub-title fz-16 mb-5">Prev Project</h6>
-                  <a href={`/project-details/${prevProject.id}`} className="fz-40 fw-600 stroke">
-                    {prevProject.client}
-                  </a>
+                  <h6 className="sub-title fz-16 mb-5">Anterior Proyecto</h6>
+                  <Link href={`/project-details/${prevProject.id}`} className="fz-40 fw-600 stroke">
+                      {nextProject.client}
+                  </Link> 
                 </div>
               </div>
             </div>
@@ -42,10 +44,10 @@ function Next({ currentId }) {
               <div className="ml-auto">
                 <div className="cont d-flex align-items-center">
                   <div>
-                    <h6 className="sub-title fz-16 mb-5">Next Project</h6>
-                    <a href={`/project-details/${nextProject.id}`} className="fz-40 fw-600 stroke">
+                    <h6 className="sub-title fz-16 mb-5">Siguiente Proyecto</h6>
+                    <Link href={`/project-details/${nextProject.id}`} className="fz-40 fw-600 stroke">
                       {nextProject.client}
-                    </a>
+                    </Link> 
                   </div>
                   <div>
                     <span className="ml-30 fz-30 ti-arrow-right"></span>
