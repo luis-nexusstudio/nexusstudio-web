@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Works({ items = [] }) {
   return (
@@ -8,7 +9,7 @@ function Works({ items = [] }) {
           {items.map((img, index) => (
             <div key={index} className="col-lg-6">
               <div className="img mb-30">
-                <img src={img} alt={`work-${index + 1}`} />
+                <Image src={img} alt="" width={1200} height={800} priority/>
               </div>
             </div>
           ))}

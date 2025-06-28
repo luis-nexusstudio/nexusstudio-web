@@ -85,7 +85,6 @@ function Testimonials() {
                     <div>
                       <div className="img fit-img">
                         <Image src="/assets/imgs/testim/t1.jpg" alt="" width={1200} height={800} priority/>
-                        <img  alt="" />
                       </div>
                     </div>
                     <div className="ml-20">
