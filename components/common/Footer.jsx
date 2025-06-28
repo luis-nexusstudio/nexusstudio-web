@@ -8,7 +8,16 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <div className="logo icon-img-100 md-mb80">
-              <Image src="/assets/imgs/isotipo_nexus.png" alt="Banner" width={1200} height={800} priority/>
+              <Image
+              src="/assets/imgs/isotipo_nexus.png"
+              alt="isotipo footer"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-auto"
+              priority
+              />
+              {/* <Image src="/assets/imgs/isotipo_nexus.png" alt="Banner" width={1200} height={800} priority/> */}
             </div>
           </div>
           <div className="col-lg-4">
@@ -84,7 +93,16 @@ function Footer() {
         </div>
       </div>
       <div className="circle-blur">
-        <Image src="/assets/imgs/patterns/pattern_4.png" alt="Banner" width={1200} height={800} priority/>
+        <Image
+        src="/assets/imgs/patterns/pattern_4.png"
+        alt="pattern footer"
+        width={0}
+        height={0}
+        sizes="100vw"
+        className="w-full h-auto"
+        priority
+              />
+        {/* <Image src="/assets/imgs/patterns/pattern_4.png" alt="Banner" width={1200} height={800} priority/> */}
       </div>
     </footer>
   );

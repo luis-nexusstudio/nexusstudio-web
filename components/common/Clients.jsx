@@ -22,7 +22,16 @@ return (
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <Image src="/assets/imgs/brands/tym.png" alt="Banner" width={1200} height={800} priority/>
+                  <Image
+                  src="/assets/imgs/brands/tym.png"
+                  alt="Ícono clientes"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                  {/* <Image src="/assets/imgs/brands/tym.png" alt="Banner" width={1200} height={800} priority/> */}
                 </div>
               </div>
               <h6 className="fz-18">Trigo y Miel</h6>
@@ -32,7 +41,16 @@ return (
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <Image src="/assets/imgs/brands/uriel.png" alt="Banner" width={1200} height={800} priority/>
+                  <Image
+                  src="/assets/imgs/brands/uriel.png"
+                  alt="Ícono clientes"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                  {/* <Image src="/assets/imgs/brands/uriel.png" alt="Banner" width={1200} height={800} priority/> */}
                 </div>
               </div>
               <h6 className="fz-18">Colegio Uriel</h6>
@@ -42,7 +60,16 @@ return (
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <Image src="/assets/imgs/brands/grescoce.png" alt="Banner" width={1200} height={800} priority/>
+                  <Image
+                  src="/assets/imgs/brands/grescoce.png"
+                  alt="Ícono clientes"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                  {/* <Image src="/assets/imgs/brands/grescoce.png" alt="Banner" width={1200} height={800} priority/> */}
                 </div>
               </div>
               <h6 className="fz-18">Grescoce</h6>

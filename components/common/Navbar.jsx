@@ -20,7 +20,16 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bord blur">
       <div className="container o-hidden">
         <a className="logo icon-img-100" href="#">
-          <Image src="/assets/imgs/isotipo_nexus.png" alt="logo" width={1200} height={800} priority/>    
+          <Image
+          src="/assets/imgs/isotipo_nexus.png"
+          alt="navbar logo"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-full h-auto"
+          priority
+          />
+          {/* <Image src="/assets/imgs/isotipo_nexus.png" alt="logo" width={1200} height={800} priority/>     */}
         </a>
       </div>
     </nav>

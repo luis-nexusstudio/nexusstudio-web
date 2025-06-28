@@ -10,19 +10,64 @@ function About() {
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img">
-                <Image src="/assets/imgs/header/p0.jpg" alt="Banner" width={1200} height={800} priority/>
+                 <Image
+                  src="/assets/imgs/header/p0.jpg"
+                  alt="icon programs"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                {/* <Image src="/assets/imgs/header/p0.jpg" alt="Banner" width={1200} height={800} priority/> */}
               </div>
               <span className="icon">
-                <Image src="/assets/imgs/resume/icon1.png" alt="Banner" width={1200} height={800} priority/>
-              </span>
-              <span className="icon"> 
-                <Image src="/assets/imgs/resume/icon2.png" alt="Banner" width={1200} height={800} priority/>
+                <Image
+                  src="/assets/imgs/resume/icon1.png"
+                  alt="icon programs"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                {/* <Image src="/assets/imgs/resume/icon1.png" alt="Banner" width={1200} height={800} priority/> */}
               </span>
               <span className="icon">
-                <Image src="/assets/imgs/resume/s6.png" alt="Banner" width={1200} height={800} priority/>
+                <Image
+                  src="/assets/imgs/resume/icon2.png"
+                  alt="icon programs"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                {/* <Image src="/assets/imgs/resume/icon2.png" alt="Banner" width={1200} height={800} priority/> */}
               </span>
               <span className="icon">
-                <Image src="/assets/imgs/resume/s2.png" alt="Banner" width={1200} height={800} priority/>
+                <Image
+                  src="/assets/imgs/resume/s6.png"
+                  alt="icon programs"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                {/* <Image src="/assets/imgs/resume/s6.png" alt="Banner" width={1200} height={800} priority/> */}
+              </span>
+              <span className="icon">
+                <Image
+                  src="/assets/imgs/resume/s2.png"
+                  alt="icon programs"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                {/* <Image src="/assets/imgs/resume/s2.png" alt="Banner" width={1200} height={800} priority/> */}
               </span>
             </div>
           </div>
@@ -36,8 +81,8 @@ function About() {
                   </span>{' '}
                 </h4>
                 <p>
-                  Nuestro enfoque va más allá de entregar un producto: acompañamos al cliente en todo el proceso, 
-                  desde la conceptualización hasta la implementación y el crecimiento. 
+                  Nuestro enfoque va más allá de entregar un producto: acompañamos al cliente en todo el proceso,
+                  desde la conceptualización hasta la implementación y el crecimiento.
                   Creemos en construir relaciones duraderas basadas en confianza, calidad y resultados.
                 </p>
 
@@ -53,7 +98,16 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <Image src="/assets/imgs/arw1.png" alt="Banner" width={1200} height={800} priority/>
+                            <Image
+                            src="/assets/imgs/arw1.png"
+                            alt="arrow img"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            className="w-full h-auto"
+                            priority
+                            />
+                            {/* <Image src="/assets/imgs/arw1.png" alt="Banner" width={1200} height={800} priority/> */}
                           </div>
                         </div>
                       </div>
@@ -68,7 +122,16 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <Image src="/assets/imgs/arw1.png" alt="Banner" width={1200} height={800} priority/>
+                             <Image
+                            src="/assets/imgs/arw1.png"
+                            alt="arrow img"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            className="w-full h-auto"
+                            priority
+                            />
+                            {/* <Image src="/assets/imgs/arw1.png" alt="Banner" width={1200} height={800} priority/> */}
                           </div>
                         </div>
                       </div>

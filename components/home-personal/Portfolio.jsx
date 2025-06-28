@@ -92,7 +92,16 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <Image src="/assets/imgs/works/1/nexus_1.png" alt="" width={1200} height={800} priority/>
+                  <Image
+                  src="/assets/imgs/works/1/nexus_1.png"
+                  alt="portfolio img"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                  {/* <Image src="/assets/imgs/works/1/nexus_1.png" alt="" width={1200} height={800} priority/> */}
                 </div>
               </div>
             </div>
@@ -128,7 +137,16 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <Image src="/assets/imgs/works/2/nexus_2.png" alt="" width={1200} height={800} priority/>     
+                   <Image
+                  src="/assets/imgs/works/2/nexus_2.png"
+                  alt="portfolio img"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                  {/* <Image src="/assets/imgs/works/2/nexus_2.png" alt="" width={1200} height={800} priority/>      */}
                 </div>
               </div>
             </div>
@@ -159,7 +177,16 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                  <Image src="/assets/imgs/works/3/nexus_3.png" alt="" width={1200} height={800} priority/>
+                   <Image
+                  src="/assets/imgs/works/3/nexus_3.png"
+                  alt="portfolio img"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
+                  />
+                  {/* <Image src="/assets/imgs/works/3/nexus_3.png" alt="" width={1200} height={800} priority/> */}
                 </div>
               </div>
             </div>

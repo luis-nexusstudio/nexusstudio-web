@@ -17,7 +17,15 @@ function Marq2() {
                 <h4 className="d-flex align-items-center">
                   <span>{item}</span>
                   <span className="icon-img-50 ml-40">
-                    <Image src="/assets/imgs/star.png" alt="Banner" width={1200} height={800} priority/> 
+
+                    <Image
+                    src="/assets/imgs/star.png"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    className="w-full h-auto"
+                    priority />       
+                    {/* <Image src="/assets/imgs/star.png" alt="Banner" width={1200} height={800} priority/>  */}
                   </span>
                 </h4>
               </div>
@@ -27,7 +35,14 @@ function Marq2() {
                 <h4 className="d-flex align-items-center">
                   <span>{item}</span>
                   <span className="icon-img-50 ml-40">
-                    <Image src="/assets/imgs/star.png" alt="Banner" width={1200} height={800} priority/> 
+                    <Image
+                    src="/assets/imgs/star.png"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    className="w-full h-auto"
+                    priority />   
+                    {/* <Image src="/assets/imgs/star.png" alt="Banner" width={1200} height={800} priority/>  */}
                   </span>
                 </h4>
               </div>
