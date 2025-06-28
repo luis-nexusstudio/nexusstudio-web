@@ -1,6 +1,8 @@
 'use client';
 import React, { useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 function Portfolio() {
   function Playing() {
@@ -79,7 +81,12 @@ function Portfolio() {
                   <div>
                     <p>
                       Plataforma digital completa para la venta y gestión de boletos de eventos que integra pagos seguros con Mercado Pago y un sistema robusto de gestión de usuarios mediante Firebase.
-                    </p>                   
+                    </p> 
+                    <a href="/project-details/ya-despega" className="underline mt-15">
+                      <span className="text main-color sub-title">
+                        Ver Detalles <i className="ti-arrow-top-right"></i>
+                      </span>
+                    </a>                  
                   </div>
                 </div>
               </div>
@@ -111,6 +118,11 @@ function Portfolio() {
                     <div className="mt-15">
                       <span className="tag">Impulsado por Grescoce</span>
                     </div>
+                    <Link href="/project-details/adt-prospectos" className="underline mt-15">
+                      <span className="text main-color sub-title">
+                        Ver Detalles <i className="ti-arrow-top-right"></i>
+                      </span>
+                    </Link> 
                   </div> 
                 </div>
               </div>
@@ -142,7 +154,7 @@ function Portfolio() {
                     <div className="mt-15">
                       <span className="tag">Impulsado por Grescoce</span>
                     </div>
-                  </div>     
+                  </div>   
                 </div>
               </div>
               <div className="col-lg-7">

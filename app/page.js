@@ -2,7 +2,7 @@ import generateStylesheetObject from '@/common/generateStylesheetsObject';
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
 import Cursor from '@/components/common/cusor';
-import LoadingScreen from '@/components/common/loader';
+import Welcome from '@/components/common/Welcome';
 import Footer from '@/components/common/Footer';
 import Marq2 from '@/components/common/Marq2';
 import Navbar from '@/components/common/Navbar';
@@ -35,8 +35,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <body className="home-personal">
-      <LoadingScreen />
+    <div className="home-personal">
+      <Welcome />
       {/* <Cursor /> */}
       <ProgressScroll />
       <Lines />
@@ -98,9 +98,14 @@ export default function Home() {
         src="/assets/js/imgReveal/imagesloaded.pkgd.min.js"
       ></Script>
 
+      <Script
+        src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        strategy="beforeInteractive"
+      />
+
       {/* <Script src="/assets/js/smoother-script.js" strategy="lazyOnload" /> */}
 
       <Script src="/assets/js/scripts.js"></Script>
-    </body>
+    </div>
   );
 }

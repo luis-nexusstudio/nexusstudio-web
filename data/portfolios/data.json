@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ya-despega",
+    "category": "Aplicación de Boletos",
+    "client": "Ya Despega",
+    "problematics": "Crear una app estable para venta de boletos y control de acceso por QR.",
+    "informationProject":"Se desarrolló en SwiftUI con interfaz intuitiva y adaptable.",
+    "tool": ["SwiftUI", "Node.js", "Firebase"],
+    "image": {
+      "header": "/assets/imgs/works/1/nexus_1.png",
+      "works": [
+        "/assets/imgs/works/1/nexus_1.png",
+        "/assets/imgs/works/1/nexus_1.png",
+        "/assets/imgs/works/1/nexus_1.png"
+      ],
+      "next": "Escalar a Android y añadir sección de reembolsos."
+    }
+  },
+  {
+    "id": "adt-prospectos",
+    "category": "Automatización ADT",
+    "client": "ADT vía Grescoce",
+    "problematics": "Automatización de flujo de leads que integra formularios, Make e integraciones con CRM.",
+    "informationProject": [
+      "Se conectaron formularios de captura con Make (Integromat).",
+      "Se diseñó un flujo de validación y distribución automática.",
+      "El CRM se actualiza con datos y activa notificaciones internas."
+    ],
+    "tool": ["Make", "CRM", "Forms"],
+    "image": {
+      "header": "/dark/assets/imgs/works/stand/2.jpg",
+      "works": [
+        "/dark/assets/imgs/works/adt-prospectos/1.jpg",
+        "/dark/assets/imgs/works/adt-prospectos/2.jpg",
+        "/dark/assets/imgs/works/adt-prospectos/3.jpg"
+      ],
+      "next": "Escalar a otras unidades de negocio y generar reportes automatizados."
+    }
+  }
+]
